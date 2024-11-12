@@ -16,7 +16,7 @@ body{
 }.search-box{
     display: flex;
     justify-content: space-around;
-    padding: 20px 40px;
+    padding: 20px 40px 10px;
 }
 .search-box input{
     font-size: 20px;
@@ -76,4 +76,15 @@ body{
     margin-bottom: 70px;
     font-size: 17px;
     font-weight: 400;
+}
+.weather{
+    display: none;
+}
+.error{
+    text-align: left;
+    font-size: 20px;
+    padding: 0 0 10px 50px;
+    color: red;
+    font-weight: 800;
+    display: none;
 }
